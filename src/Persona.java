@@ -19,5 +19,10 @@ public class Persona {
     this.apellido=apellido;
     
     }
+    @Override
+    public String toString(){
+        return this.nombre;
+    };
+    
     
 }

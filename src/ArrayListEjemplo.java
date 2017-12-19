@@ -45,11 +45,13 @@ public class ArrayListEjemplo {
         objetospersonas.add(new Persona("ariel","martinez"));
         objetospersonas.add(new Persona("jose","cuevas"));
         objetospersonas.add(new Persona("pepe","cuevas"));
+        objetospersonas.add(new Persona("Leo","Melendez"));
+        objetospersonas.add(new Persona("Max","Melendez"));
         
-        System.out.println(objetospersonas.size());
+        //System.out.println(objetospersonas.size());
         
         
-        objetospersonas.set(1, new Persona("paulo","castro"));
+        //objetospersonas.set(1, new Persona("paulo","castro"));
         
         //objetospersonas.trimToSize();
         
@@ -60,7 +62,7 @@ public class ArrayListEjemplo {
             System.out.println(e);
         }
         
-        System.out.println(objetospersonas.get(0));
+        //System.out.println(objetospersonas.get(0));
         
     }
     
